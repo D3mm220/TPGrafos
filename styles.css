@@ -12,19 +12,34 @@ body {
   background-color: white;
 }
 
+.container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
 #boton {
   width: 150px;
-  height: 50px; 
-  position: absolute;
-  bottom: 20px;
-  border: 5px solid black;
+  height: 50px;
+  display: flex;
+  border: 2px solid black;
+  border-radius: 20px;
   background-color: cadetblue;
+  font-size: 35px;
+  justify-content: center;
 }
 
 #header {
   display: flex;
-  justify-content: left;
+  justify-content: center;
+  font-size: 50px;
   margin: 0px;
   font-family: "Nerko One", cursive;
 }
-
